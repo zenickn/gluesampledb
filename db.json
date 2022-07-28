@@ -1,0 +1,76 @@
+{
+    "TravelDetails": {
+      "XmlSchemaVersion": "2018-09-10",
+      "Header": {
+        "RequestDate": "2020-12-09T11:16:44.5420512-07:00",
+        "RequestMethod": "Bookings",
+        "RequestHeaders": [
+          {
+            "Key": "Connection",
+            "Value": "keep-alive"
+          },
+          {
+            "Key": "Accept",
+            "Value": "text/json"
+          },
+          {
+            "Key": "Accept-Encoding",
+            "Value": "gzip;deflate"
+          }
+        ]
+      },
+      "Flights": [
+        {
+          "FlightId": 1,
+          "FlightNumber": "HDD-00000001",
+          "FlightDate": "2019-06-12",
+          "AeroplaneModel": {
+            "ModelID": 1,
+            "Capacity": 4,
+            "CityMade": "PHOENIX",
+            "StateProvince": "AZ",
+            "Country": "USA",
+            "PostalZIP": "85004"
+          },
+          "SeatTypeDetails": [
+            {
+              "SeatTypeID": 1,
+              "SeatDeatils": {
+                "NumberPresent": 2,
+                "SeatPrivate": "Y",
+                "SeatDescription": "only for pilot",
+                "SeatAvailable": "SOLD99",
+                "SeatQuality": "New"
+              },
+              "VentureCode": "000160",
+              "PremiumDesc": "everyone"
+            },
+            {
+              "SeatTypeID": 2,
+              "SeatDeatils": {
+                "NumberPresent": 250,
+                "SeatPrivate": "N",
+                "SeatDescription": "Not only for pilot",
+                "SeatAvailable": "SOLD99",
+                "SeatQuality": "New"
+              },
+              "VentureCode": "000160",
+              "PremiumDesc": "everyone"
+            },
+            {
+              "SeatTypeID": 3,
+              "SeatDeatils": {
+                "NumberPresent": 10,
+                "SeatPrivate": "N",
+                "SeatDescription": "Not only for pilot",
+                "SeatAvailable": "SOLD99",
+                "SeatQuality": "New"
+              },
+              "VentureCode": "000160",
+              "PremiumDesc": "everyone"
+            }
+          ]
+        }
+      ]
+    }
+  }
